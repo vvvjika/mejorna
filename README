@@ -1,0 +1,33 @@
+=== Update 2013/06/26 ===
+#Most v2.1 Change could be found in Folder /Assets/MejornaV2.1; 
+#Every commit includ a task update;
+
+BC-3:
+This could be achieved by entering the TestScene in Unity, click one
+design in gallery and click Save in design view. Then the gallery image
+background could be set a solid color, and the background color could
+be set as
+SnapshotBehaviour.Instance.Capture(Color.gray);
+
+BS-3:
+in design view, bead could hover over with halo effect, and the effect
+could be edit in MejornaV2.1/Resources/Halo.prefab
+
+-----------------------------------------
+
+Note: Use Unity3d version 3.5 only.  Usage of version 4 will cause issues when opening in 3.5 again.
+
+Viewing Unity3d Project:
+
+1) Start Unity3d
+2) File>Open Project
+3) Open Project tab>Open Other
+4) Select local folder for all project files and Open
+5) Within Unity3d application Project Panel, go to folder Mejorna
+6) Open latest scene "POC v2 20120615" by double clicking
+
+Note: For initial open, Unity will ask you to import assets.  Proceed to import all.  It may take a while.  Please be patient.  
+
+Also, within Unity Project panel, not all the files are used for this project.  I've not gotten to clean everything up.
+
+Some of the substances in Unity3d appear better when viewed with Unity3d version 4 beta, or in Allegorithmic Substance Designer.  There appears to be a bug that reduces the optimal viewing of the Substance Designer files in Unity3d version 3.5.
